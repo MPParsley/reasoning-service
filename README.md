@@ -4,7 +4,7 @@ Configurable reasoning service. A wrapper around the [EYE reasong engine](https:
 
 ## Configuration and usage
 
-An example config is included in `config/knows`. This creats a preconfigured reasoning api under `/reason/knows` based on this [n3 tutorial](https://n3.restdesc.org/).
+An example config is included in `config/knows`. This creates a preconfigured reasoning api under `/reason/knows` based on this [n3 tutorial](https://n3.restdesc.org/).
 
 - `.n3`-files contain rules and data
 - `.n3q`-files contain the query (optional). If no query files are provided, the full deductive closure will be returned
